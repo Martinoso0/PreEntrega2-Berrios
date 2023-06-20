@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-mia {
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 200x;
+}
+
+.navbar-mia img {
+    width: 95px;
+
+}
+
+
+/*===================CARRUSEL DE FOTOS==========================*/
+
+.carrusel-fotos {
+    max-height: 39rem !important;
+}
+
+.carrusel-mio img {
+    height: 70vh;
+}
+
+.carrusel-mio h5 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+}
+
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #f5dfa5;
+    min-height: 500px;
+    position: relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #53321a;
+    border-radius: 5px;
+
+}
+
+
+#titulo-formulario {
+    color: #ffffff;
+}
+
+.btn-mio {
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 9, 9);
+    border-color: white;
+    transition: background-color 0.3s;
+
+
+}
+
+#locales {
+    background-color: #f5dfa5;
+    padding: 10.1%;
+}
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #202020;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+
+
+    #img-equipo {
+        max-height: 20rem !important;
+        width: 90%;
+    }
+
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #local {
+        flex-wrap: wrap;
+    }
+
+    .mapa img {
+        width: 100%;
+        height: auto;
+    }
+
+    #bg-contactos {
+        top: -120px;
+    }
+
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width: 100% !important;
+    }
+
+    #servicios-fila-1 {
+        width: 100% !important;
+    }
+
+    .icono-wrap {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
