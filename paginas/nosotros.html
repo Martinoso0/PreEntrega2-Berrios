@@ -1,89 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Nosotros - Churros San Bernardo</title>
-    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
-        <!-- NAV BAR -->
-        <nav>
-            <div class="logo">
-                <a href="#"><img src="../img/LOGO.jpg" alt="Logo"></a>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-mia">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/LOGO.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locaciones.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="links">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../paginas/nosotros.html">NOSOTROS</a></li>
-                <li><a href="../paginas/menu.html">MENU</a></li>
-                <li><a href="../paginas/locaciones.html">LOCACIONES</a></li>
-                <li><a href="../paginas/contacto.html">CONTACTO</a></li>
-            </ul>
         </nav>
-        <!-- NAV BAR END -->
     </header>
+    <!---->
+    <!-- BANNER -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active carrusel-fotos">
+                <img src="../img/back1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carrusel-fotos">
+                <img src="../img/back2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carrusel-fotos">
+                <img src="../img/back3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
     <main>
         <!-- SOBRE NOSOTROS -->
-        <section class="nosotros">
-            <div class="nosotros-image">
-                <img src="../img/historia.jpg" alt="Imagen Nosotros">
-            </div>
-            <div class="nosotros-text">
-                <h2>Nuestra Historia</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum ante eget malesuada.
-                    Sed a lacus nec risus consectetur hendrerit at quis est. Curabitur non tristique ipsum, vel dapibus
-                    urna. </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea praesentium sunt numquam perferendis cum
-                    quo, quos iste! Iste voluptas enim, nemo atque harum libero, delectus ratione ducimus reiciendis
-                    repellendus quisquam ipsum ipsa, quae adipisci totam. Quia rerum quaerat sed voluptatem. Autem,
-                    repellendus, molestiae dolor corporis a, vero culpa asperiores nesciunt possimus consequatur aliquid
-                    earum cum voluptatibus magni! Dicta sint modi dolorum quo quod magni ipsum, soluta quibusdam tempora
-                    fugit voluptatibus reiciendis sed quam tenetur recusandae cupiditate tempore ad? Praesentium, minus.
-                    Suscipit vero quod ipsum? Dolor pariatur in unde possimus inventore obcaecati nobis, ex est corporis
-                    magni tempora iusto at, dignissimos nesciunt doloribus ab? Totam assumenda neque voluptatibus,
-                    aliquam sint numquam eaque excepturi dolore facere quibusdam veniam! Nobis asperiores quisquam quas
-                    magni praesentium unde esse temporibus. Error accusamus dolores laudantium odit nam impedit eum
-                    numquam, consectetur quasi delectus, illum dignissimos quam qui facere pariatur voluptas distinctio
-                    iure. Ex quidem delectus similique obcaecati illum vero, amet nulla ullam asperiores libero sit
-                    beatae ab possimus. Maxime adipisci id dolorem. Deserunt officiis qui neque maiores at distinctio
-                    nemo aliquam porro delectus doloremque pariatur facilis, corrupti similique doloribus, culpa aut
-                    consequuntur iure hic iste ipsam quasi ad placeat. Exercitationem labore.</p>
-        </section>
-
-        <footer class="footer">
-            <div class="footer-top">
-                <div class="footer-left">
-                    <img src="../img/LOGO.jpg" alt="Logo">
-                    <div class="contact-info">
-                        <p>Teléfono: 123-456-7890</p>
-                        <p>Email: info@churreria.com</p>
+        <section id="nosotros">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="heading">
+                            <h1>Nuestra historia</h1>
+                            <p>Estamos desde 1984</p>
+                        </div>
                     </div>
                 </div>
-                <div class="address">
-                    <p>Dirección 1: Lorem ipsum dolor sit amet.</p>
-                    <p>Dirección 2: Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="nosotros-foto">
+                            <img src="../img/historia.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="nosotros-contenido">
+                            <h2>Churros San Bernardo</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deleniti voluptatum.
+                                Saepe, voluptatum libero adipisci, qui est ex explicabo dolorum delectus totam pariatur,
+                                esse odio maiores. Magnam similique minus cum!</p>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deleniti voluptatum.
+                                Saepe, voluptatum libero adipisci, qui est ex explicabo dolorum delectus totam pariatur,
+                                esse odio maiores. Magnam similique minus cum!</p>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deleniti voluptatum.
+                                Saepe, voluptatum libero adipisci, qui est ex explicabo dolorum delectus totam pariatur,
+                                esse odio maiores. Magnam similique minus cum!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="copyright">
-                    <p>&copy; 2023 Churros San Bernardo. Todos los derechos reservados.</p>
-                </div>
-                <nav class="footer-nav">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../paginas/nosotros.html">Nosotros</a></li>
-                        <li><a href="../paginas/menu.html">Menú</a></li>
-                        <li><a href="../paginas/locaciones.html">Locaciones</a></li>
-                        <li><a href="../paginas/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
+        </section>
+
+
+        </div>
+        <!-------------------- FOOTER -------------------->
+
+        <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+            <p class="fs-5 px-3  pt-3">Churros San Bernardo. &copy; Todos Los Derechos Reservados 2023</p>
+            <div id="iconos">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
             </div>
         </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

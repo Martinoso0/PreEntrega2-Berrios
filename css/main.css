@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    background-color: #f5dfa5;
 }
 
 .navbar-mia {
@@ -15,7 +16,6 @@ body {
     width: 95px;
 
 }
-
 
 /*===================CARRUSEL DE FOTOS==========================*/
 
@@ -32,12 +32,11 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
 }
 
-
 /*=========================CONTACTOS BACKGROUND================================*/
 
 #bg-contactos {
     position: relative;
-    top: -130px;
+    top: 130px;
 }
 
 #seccion-contacto {
@@ -46,6 +45,81 @@ body {
     position: relative;
 }
 
+/*=========================NOSOTROS================================*/
+#nosotros {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nosotros-contenido h2 {
+    margin: 10px;
+    padding: 0px;
+    font-size: 40px;
+
+}
+
+.nosotros-contenido p {
+    font-size: 20px;
+}
+
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px auto;
+}
+
+
+.heading h1,
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.heading h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.heading p {
+    font-size: 28px;
+    color: #412715;
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+
+.nosotros-foto {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.nosotros-foto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+/*=========================NOSOTROS================================*/
+
 /*=========================CONTACTOS FORMULARIO================================*/
 
 #contenedor-formulario {
@@ -53,8 +127,8 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #53321a;
-    border-radius: 5px;
+    background: #412715;
+    border-radius: 10px;
 
 }
 
@@ -74,14 +148,30 @@ body {
 
 #locales {
     background-color: #f5dfa5;
-    padding: 10.1%;
+    padding: 2%;
+}
+
+.locales-titulo {
+    color: #ffffff;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /*=========================FOOTER================================*/
 
+#contacto-footer {
+    height: 150px;
+    position: relative;
+    bottom: 0;
+}
+
+
 footer {
     background: #202020;
-    min-height: 100px;
+    padding: 20px;
+    margin: 0;
 }
 
 footer p {
@@ -89,29 +179,47 @@ footer p {
     text-align: center;
 }
 
-#iconos i {
-    font-size: 26px;
-    padding: 0 8px;
+#iconos a {
+    display: inline-block;
+    margin: 0 8px;
     color: #f3f3f3;
+    font-size: 26px;
 }
 
 
+/* menu */
 
+.galeria-titulo {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
 
+.galeria-titulo:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
 
+}
 
+.port-image {
+    width: 100%;
+}
 
+.galeria-producto {
+    margin-bottom: 30px;
 
+}
 
+.img-responsive {
+    width: 100%;
+    border-radius: 20px;
 
-
-
-
-
-
-
-
-
+}
 
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
