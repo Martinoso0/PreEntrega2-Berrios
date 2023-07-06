@@ -1,0 +1,17 @@
+footer {
+    background: $color-terciario;
+    padding: 20px;
+    margin: 0;
+
+    p {
+        color: #ffffff;
+        @include centrar-texto;
+    }
+}
+
+#iconos a {
+    display: inline-block;
+    margin: 0 8px;
+    color: $color-nav;
+    font-size: 26px;
+}

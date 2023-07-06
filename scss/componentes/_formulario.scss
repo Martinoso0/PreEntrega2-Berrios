@@ -1,0 +1,43 @@
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos {
+    position: relative;
+    top: 130px;
+}
+
+#seccion-contacto {
+    background-color: $color-primario-d;
+    min-height: 500px;
+    position: relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: $color-secundario;
+    border-radius: 15px;
+}
+
+#titulo-formulario {
+    color: $color-titulos;
+    transform: map-get($efectos, y-10);
+}
+
+.btn-mio {
+    color: $color-let-bor-btn;
+    background-color: $color-botones;
+    border-color: $color-let-bor-btn;
+    transition: background-color 0.4s;
+}
+
+#contacto-footer {
+    height: 150px;
+    position: relative;
+    bottom: 0;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/

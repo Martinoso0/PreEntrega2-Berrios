@@ -1,0 +1,34 @@
+/*========================= MENU ================================*/
+
+.galeria-titulo {
+    color: #ffffff;
+    font-size: $font-size-t;
+    padding: 20px;
+    @include centrar-texto;
+    @include sombra-texto;
+}
+
+.galeria-titulo:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+
+}
+
+
+.port-image {
+    width: 100%;
+}
+
+.galeria-producto {
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*========================= MENU ================================*/

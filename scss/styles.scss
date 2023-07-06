@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import './abstract/variables';
+@import './abstract/extend';
+@import './abstract/mixin';
+@import './abstract/base';
+@import './abstract/maps';
+
+
+@import './componentes/historia';
+@import './componentes/galeria';
+@import './componentes/header';
+@import './componentes/footer';
+@import './componentes/cards';
+@import './componentes/formulario'

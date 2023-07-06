@@ -1,0 +1,15 @@
+/*=========================LOCALES================================*/
+#locales {
+    background-color: $color-primario;
+    padding: 20px;
+}
+
+.locales-titulo {
+    color: $color-titulos;
+    font-size: $font-size-t;
+    padding: 20px;
+    @include centrar-texto;
+    @include sombra-texto;
+}
+
+/*=========================LOCALES================================*/
