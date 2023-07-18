@@ -25,6 +25,10 @@
 #titulo-formulario {
     color: $color-titulos;
     transform: map-get($efectos, y-10);
+
+    h2 {
+        margin-top: 0;
+    }
 }
 
 .btn-mio {

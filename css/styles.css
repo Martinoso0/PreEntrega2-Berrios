@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 #nosotros {
   margin: 0;
   padding: 0;
@@ -26,10 +27,12 @@ h2 {
   padding: 0px;
   font-size: 40px;
 }
+
 #nosotros .nosotros-contenido p {
   font-size: 20px;
   margin: 2px;
 }
+
 #nosotros .heading {
   width: 90%;
   display: flex;
@@ -39,6 +42,7 @@ h2 {
   text-align: center;
   margin: 40px auto;
 }
+
 #nosotros .heading h1,
 #nosotros .heading h2 {
   text-align: center;
@@ -47,6 +51,7 @@ h2 {
   position: relative;
   text-shadow: 2px 2px 4px #000000;
 }
+
 #nosotros .heading h1::after {
   content: "";
   position: absolute;
@@ -55,20 +60,24 @@ h2 {
   display: block;
   margin: 0 auto;
 }
+
 #nosotros .heading p {
   font-size: 28px;
   color: #000;
   margin-bottom: 35px;
 }
+
 #nosotros .container {
   width: 90%;
   margin: 0 auto;
   padding: 50px 25px;
 }
+
 #nosotros .nosotros-foto {
   flex: 1;
   overflow: hidden;
 }
+
 #nosotros .nosotros-foto img {
   max-width: 100%;
   height: auto;
@@ -113,6 +122,7 @@ h2 {
   font-weight: bold;
   font-size: 20px;
 }
+
 .navbar-mia img {
   width: 95px;
 }
@@ -128,6 +138,7 @@ footer {
   padding: 20px;
   margin: 0;
 }
+
 footer p {
   color: #ffffff;
   text-align: center;
@@ -178,9 +189,11 @@ footer p {
 }
 
 #titulo-formulario {
+  margin-top: 20px;
   color: #ffffff;
   transform: translateY(-10px);
 }
+
 
 .btn-mio {
   color: #f2f2f2;

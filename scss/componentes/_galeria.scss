@@ -6,17 +6,15 @@
     padding: 20px;
     @include centrar-texto;
     @include sombra-texto;
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 7.5%;
+        left: 46.5%;
+        height: 45px;
+    }
 }
-
-.galeria-titulo:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-
-}
-
 
 .port-image {
     width: 100%;
